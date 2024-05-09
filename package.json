@@ -15,9 +15,13 @@
     "@html-eslint/parser": "^0.24.1",
     "@playwright/test": "^1.44.0",
     "@types/node": "^20.12.10",
+    "allure-commandline": "^2.29.0",
+    "allure-playwright": "2.15.1",
     "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-react": "^7.34.1",
     "globals": "^15.1.0",
+    "prettier": "^3.2.5",
     "typescript-eslint": "^7.8.0"
   },
   "dependencies": {
