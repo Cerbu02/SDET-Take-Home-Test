@@ -13,4 +13,4 @@ Install dependencies:
 npm install
 
 Running the Test Suite:
-To run the test suite, execute the testing playwright module
+To run the test suite, execute the follow command ``` npx playwright test ```
