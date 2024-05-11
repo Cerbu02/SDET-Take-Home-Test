@@ -41,4 +41,5 @@ test("test", async ({ page }) => {
     expect(afterSortProducts[i].title).toBe(lohiSortedProducts[i].title);
     expect(afterSortProducts[i].price).toBe(lohiSortedProducts[i].price);
   }
+  expect(afterSortProducts.length).toBe(lohiSortedProducts.length);
 });
