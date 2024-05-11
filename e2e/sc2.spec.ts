@@ -36,4 +36,8 @@ test("test", async ({ page }) => {
   await page.locator('[data-test="postalCode"]').fill("800100");
   await page.getByRole("button", { name: "CONTINUE" }).click();
   await page.getByRole("link", { name: "FINISH" }).click();
+
+  
+  const thankYouMessage = await page.locator(".complete-header").innerText();
+  expect(thankYouMessage).toContain("THANK YOU FOR YOUR ORDER");
 });
