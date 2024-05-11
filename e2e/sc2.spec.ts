@@ -25,9 +25,9 @@ test("test", async ({ page }) => {
   );
 
   expect(itemNames).toContain("Sauce Labs Bolt T-Shirt");
+  expect(itemNames.length).toBe(1);
 
   await page.getByRole("link", { name: "CHECKOUT" }).click();
-
   await page.locator('[data-test="firstName"]').click();
   await page.locator('[data-test="firstName"]').fill("first name");
   await page.locator('[data-test="firstName"]').press("Tab");
