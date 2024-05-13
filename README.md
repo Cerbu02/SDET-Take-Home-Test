@@ -24,4 +24,4 @@ To run the test suite, execute the follow command ```npx playwright test e2e```
 
 To run an individual test, execute the command ```npx playwright test e2e/``` followed by the file name
 
-To view the results of the Allure report, use the command ```allure report```
+To view the results of the Allure report, use the command ```allure open ./allure-report```
