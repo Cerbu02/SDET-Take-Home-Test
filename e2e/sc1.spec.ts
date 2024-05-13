@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 
-test("test", async ({ page }) => {
+test("Quick checkout from Products page", async ({ page }) => {
   await page.goto("https://www.saucedemo.com/v1/");
   await page.locator('[data-test="username"]').click();
   await page.locator('[data-test="username"]').fill("standard_user");
